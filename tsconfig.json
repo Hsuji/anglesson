@@ -1,0 +1,8 @@
+//ts파일 자동 컴파일하기 위한 설정
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true
+    }
+}
