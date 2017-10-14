@@ -73,7 +73,7 @@ let AjaxUtit = function(ti:testIter) {
     }
 }
 
-var test1 = {str:'홍길동', num: 31};
+var test1 = {str:'홍길동', num: 30};
 var au = new AjaxUtit(test1);
 au.print();
 
@@ -88,4 +88,4 @@ class Car {
 let hyundai = new Car('sonata');
 let pStr:string = 'hyundai 자동차 중 제 차는 : ';
 pStr += hyundai.carName;
-console.log(pStr);
+console.log(pStr); 
