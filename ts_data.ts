@@ -73,7 +73,7 @@ let AjaxUtit = function(ti:testIter) {
     }
 }
 
-var test1 = {str:'홍길동', num: 30};
+var test1 = {str:'홍길동', num: 35};
 var au = new AjaxUtit(test1);
 au.print();
 
