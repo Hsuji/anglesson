@@ -44,8 +44,8 @@ function workFlow(w:Work) {
     w.goOut();
 }
 
-let dev:Work = new Developer();
+let dev:Work = new Developer('개발자');
 workFlow(dev);
 
-let code:Work = new Coder();
+let code:Work = new Coder('코더');
 workFlow(code);
