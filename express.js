@@ -50,10 +50,8 @@ var funForUserList = function(req, res) {
     var userId = req.query.id;
     var userPwd = req.query.pwd;
     if(!userId) {
-        // resText = "유저 아이디를 입력해주세요!";
         res.send("유저 아이디를 입력해주세요!");
     } else if(!userPwd){
-        // resText = "비밀번호를 입력해주세요!";
         res.send("비밀번호를 입력해주세요!");
     } else {
         var sql = "select * from user_info where userId=?";
